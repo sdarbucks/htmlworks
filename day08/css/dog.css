@@ -1,0 +1,21 @@
+body{
+    margin: 50px;
+}
+article{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    float: left;
+}
+footer{
+    clear: both;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+p{
+    font-size: small;
+}

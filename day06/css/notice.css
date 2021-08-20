@@ -1,0 +1,20 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    /* border-box: padding을 늘려도 박스 사이즈 변함없이 유지할 수 있음 */
+}
+#wrap{
+    width: 250px;
+    height: 300px;
+    padding: 20px 40px;
+    margin: 2px auto;
+    background-image: url(../images/notice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 배경이 축소되서 딱 맞게 들어감 */
+}
+ul, li{
+    list-style: none;
+    margin: 20px 10px
+}
+}
