@@ -1,19 +1,68 @@
-body{margin: 50px;}
+*{margin: 0; padding: 0;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* header 스타일 */
+header{
+    height: 80px;
+    background-color: rgb(12, 94, 87);
+    margin-bottom: 20px;
+}
+/* logo 스타일 */
+#logo{
+    width: 250px;
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+    /* height와 같은 크기이면 수직 가운데 정렬됨 */
+}
+#logo a{
+    text-decoration: none;
+    color: #fff;
+}
+#logo a:hover{
+    color: yellow;
+}
+/* nav 스타일 */
+nav{
+    height: 80px;
+    float: right;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+/* 본문 스타일 */
+section{width: 900px; margin: 0 auto;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.0em;}
+p{line-height: 2; font-size: 14px;}
 article{
-    width: 350px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     float: left;
 }
 footer{
-    clear: both;
+    clear: left;
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 5px;
-}
-p{
-    font-size: small;
 }
